@@ -1,0 +1,7 @@
+applications:
+- name: spring-boot-coding
+  path: target/contacts-0.0.1-SNAPSHOT.jar
+  domain: cfapps.io
+  memory: 512M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.7
